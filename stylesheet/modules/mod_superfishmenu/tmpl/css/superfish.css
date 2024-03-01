@@ -1,0 +1,125 @@
+/* @override 
+    http://stage.hellokittyonline.com/modules/mod_superfishmenu/tmpl/css/superfish.css
+    http://localhost:8887/HKO/joomla/modules/mod_superfishmenu/tmpl/css/superfish.css
+    http://sstatic.hellokittyonline.com/modules/mod_superfishmenu/tmpl/css/superfish.css
+*/
+
+/*** ESSENTIAL STYLES ***/
+
+/* @group Menu */
+
+.sf-menu{
+    list-style:     none;
+    height: 48px;
+    padding: 15px 85px 0px 85px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.sf-menu ul {
+    padding: 0 0 10px 0;
+    margin: 8px 0px 0px 0px;
+    border-right: 1px solid #e7004e;
+    border-left: 1px solid #e7004e;
+    border-bottom: 1px solid #e7004e;
+    background: #faafc2 no-repeat left 100%;
+    position:       absolute;
+    top:            -999em;
+}
+
+.sf-menu ul li {
+    left: 0px;
+    text-align: left;
+    margin: 5px 10px;
+    min-width: 130px;
+}
+
+.sf-menu li {
+    float:      left;
+    position:   relative;
+    margin:     0px 8px;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    list-style: none;
+    top:    25px;
+    left:   -10px;
+    position: absolute;
+    z-index:    99;
+}
+
+.sf-menu a:hover{
+    color: #fff;
+    
+}
+
+.sf-menu a {
+    padding: 2px 0;
+    text-decoration:none;
+    color: #70212e;
+    font: bold 12px "Lucida Grande", Lucida, Verdana, sans-serif;   
+}
+
+.sf-menu ul .menubottom{
+    float: left;
+    clear: left;
+    display: block;
+    width: 100%;
+    height: 20px;
+}
+
+.sf-sub-indicator {
+    position:       absolute;
+    top:            1em;
+    width:          10px;
+    height:         10px;
+    line-height: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* @end */
+
+/* @group Region Menu */
+
+
+div.region .region.sf-menu{
+    list-style-type: none;
+    position: relative;
+    display: block;
+    padding: 0 0;
+    height: 68px;
+    list-style-image: none;
+}
+
+
+div.region .region.sf-menu ul {
+    position: absolute;
+    padding: 10px 0;
+    margin: 0 0 0 20px;
+    top: 70px;
+    left: 0px;
+    width: 180px;   
+    background-color: #7a48e3;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-width: 2px;
+    border-color: #fff;
+    z-index:    99;
+}
+
+div.region .sf-menu a{
+    color: #fff;
+}
+
+div.region .region.sf-menu li {
+    position:   relative;
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+    width: 100%;
+    border-style: none;
+}
