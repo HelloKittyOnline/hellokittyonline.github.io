@@ -13,7 +13,7 @@ a{
 body {
     color: #333333;
     margin: 0;
-    background: #0f4d9a url(/templates/HKO/images/HKO/background.jpg) repeat-x;
+    background: #0f4d9a url(../../../templates/HKO/images/HKO/background.jpg) repeat-x;
 }
 
 p {
@@ -41,7 +41,7 @@ img {
     float: left;
     width: 20px;
     height: 378px;
-    background: #007adf url(/templates/HKO/images/HKO/header_image_left.jpg) no-repeat scroll;
+    background: #007adf url(../../../templates/HKO/images/HKO/header_image_left.jpg) no-repeat scroll;
 }
 
 #decoright {
